@@ -1,6 +1,19 @@
 # Medical Chatbot
 
-An AI chatbot that answers medical questions using PDF documents stored in Pinecone vector database.
+Medical Chatbot is an intelligent AI-powered assistant designed to help answer medical questions and provide health-related information. It uses a combination of:
+
+- **PDF Documents**: Medical knowledge base stored as PDF files
+- **Vector Database**: Pinecone stores and retrieves relevant medical documents instantly
+- **Google Gemini AI**: Advanced language model that understands questions and provides accurate answers
+- **Web Interface**: User-friendly chat interface to ask questions anytime
+
+The chatbot reads your medical question, searches through the medical document database to find relevant information, and uses AI to generate a clear, concise answer in Vietnamese. This makes it easy for users to get quick medical information without having to search through multiple documents.
+
+**Use Cases:**
+- Get quick answers to common medical questions
+- Learn about symptoms and treatments
+- Access medical information in Vietnamese
+- Understand health-related topics easily
 
 ## Features
 
@@ -83,7 +96,3 @@ Medical-Chatbot/
 - Pinecone - Vector database
 - Google Gemini - Language model
 - HuggingFace - Embeddings
-
-## Author
-
-Tran Tri Duc - 22520276@gm.uit.edu.vn
